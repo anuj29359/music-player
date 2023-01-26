@@ -1,0 +1,48 @@
+body {
+    background-color: #dbd8d8;
+
+}
+
+#music-payer {
+    height: 400px;
+    width: 250px;
+    min-height: 400px;
+    min-width: 250px;
+    margin: auto;
+    padding: 50px 50px 50px 50px;
+    border: 2px solid #605c5c;
+}
+
+p {
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(141, 73, 73);
+    text-align: center;
+    font-weight: bold;
+}
+
+#song-image > img {
+    padding: 10px 10px 10px 10px;
+    width: 220px;
+    height: 160px;
+    /* margin: auto; */
+    object-fit: cover;
+}
+
+#song-control-buttons, #progress-seek-bar, 
+#vol-bar{
+    margin: 0 auto;
+    /* padding: 20px; */
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+#song-control-buttons > i{
+    margin: 20px;
+}
+
+
+#progress-seek-bar, #vol-bar > p, input, i{
+    margin: 10px;
+}
